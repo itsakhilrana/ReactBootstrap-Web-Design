@@ -1,12 +1,12 @@
-
-import './App.css';
+import './App.css'
+import GroupFoCard from './components/GroupFoCard'
 
 function App() {
   return (
     <div className="App">
-      <h1>Venom</h1>
+      <GroupFoCard></GroupFoCard>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
